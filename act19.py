@@ -43,12 +43,6 @@ def F7(n):
 
 
 
-def F77(n):
-    if n == 0:
-        return 0
-    if n == 1:
-        return 1
-    
-    return F77(n-1)+F77(n-2)
 
-print(F77(5))
+
+F7(8)

@@ -31,8 +31,3 @@ class Etudiant(Personne):
     def afficher(self):
         print(f"cne: {self.cne}")
         Personne.afficher(self)
-
-
-e = Etudiant("CNE123", "Adam", "Casablanca")
-e.afficher()
-Personne.afficher(e)

@@ -1,3 +1,3 @@
 with open("amis.txt","r+") as file:
-    print(file.readlines())
+    print(file.readline())
     file.close()

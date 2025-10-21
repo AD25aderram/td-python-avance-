@@ -49,8 +49,7 @@ class Employe:
         return todays_year - EmbaucheYear
     
     def afficher(self):
-        """Affiche toutes les informations de l'employé."""
-        print("\n--- Informations de l'employé ---")
+        print("--- Informations de l'employé ---")
         print(f"Identifiant : {self.__Identifiant}")
         print(f"Nom complet : {self.__Prenom} {self.__Nom}")
         print(f"Âge : {self.Age()} ans")
